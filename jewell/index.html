@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Jewelery Shop
+    </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #faf7f2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .photo-wrap {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .overlay-text {
+                .overlay-list {
+                    position: static;
+                    color: #333;
+                    text-shadow: none;
+                    margin: 10px 0 0;
+                    max-width: 100%;
+                }
+
+                .overlay-list {
+                    padding-left: 20px;
+                }
+
+                .products {
+                    flex-direction: column;
+                }
+            }
+
+            h1,
+            h2 {
+                padding: 0 10px;
+            }
+
+            .photo-wrap {
+                max-width: 700px;
+                width: 100%;
+                margin: 0 auto;
+                position: relative;
+                display: inline-block;
+            }
+
+            .photo-wrap img {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+
+            .overlay-text {
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+                color: white;
+                font-size: 1.2rem;
+                text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+                margin: 0;
+                max-width: 80%;
+            }
+
+            .overlay-list {
+                position: absolute;
+                top: 60px;
+                left: 20px;
+                color: white;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+                ;
+            }
+
+            .overlay-list li {
+                margin-bottom: 6px;
+            }
+
+            .products-section {
+                max-width: 900px;
+                width: 100%;
+                margin: 30px auto 0;
+                background-color: #f5f0eb;
+                padding: 30px 20px;
+                border-radius: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Jewellery Shop</h1>
+
+    <div class="photo-wrap">
+        <img src="jewel.png" alt="jewelery">
+        <p class="overlay-text">
+            Discover handcrafted fine jewelry designed to tell your unique story
+        </p>
+
+    </div>
+    <h2>Types of Jewelery We are selling</h2>
+    <p>
+        Customisation is also available as per the preference,<br>
+        Initial or Name on the jewellery,<br>
+        Or for gifting purpose,<br>
+        We also customise size for kids.
+    </p>
+    <div class="products-section">
+        <a href="jewel1.webp"> <img src="jewel1.webp" height="100" width="100"> <br>
+            whole set <br> $500
+            <button>BuyNow</button></a> <br>
+        <a href="jewel2.webp"> <img src="jewel2.webp" height="100" width="100"> <br>
+            whole set <br> $500
+            <button>BuyNow</button></a> <br>
+        <a href="jewel3.webp"> <img src="jewel3.webp" height="100" width="100"> <br>
+            silver ring <br>$400
+            <button>BuyNow</button></a> <br>
+        <a href="jewel4.jpg"> <img src="jewel4.jpg" height="100" width="100"> <br>
+            gold bracelet <br>$200
+            <button>BuyNow</button></a>
+    </div>
+
+</html>
